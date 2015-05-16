@@ -1,3 +1,6 @@
 $(function(){
-	alert();
+	$('.box').on('click', function(event) {
+		event.preventDefault();
+		alert();
+	});
 })
